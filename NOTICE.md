@@ -1,6 +1,6 @@
 # Rights and third-party notices
 
-This repository packages the Brand SEO Growth Workflow for inspection and installation. Public visibility alone does not grant an open-source license to the repository as a whole. No repository-wide license is declared by this release; additional reuse or redistribution permissions should be clarified with the rights holder. Do not assume the font licenses license the workflow or report design.
+This repository packages the Aident SEO Growth Agency for inspection and installation. Public visibility alone does not grant an open-source license to the repository as a whole. No repository-wide license is declared by this release; additional reuse or redistribution permissions should be clarified with the rights holder. Do not assume the font licenses license the workflow or report design.
 
 ## Fonts
 

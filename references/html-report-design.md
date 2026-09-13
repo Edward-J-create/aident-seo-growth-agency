@@ -1,6 +1,6 @@
 # Standalone HTML SEO Report System
 
-Use this reference whenever the user asks for an HTML report, visual report, agency-style deliverable, interactive audit, or a revision to an existing SEO report. This system belongs to `brand-seo-growth-workflow`; it must not load, cite, import, or depend on another design or presentation skill.
+Use this reference whenever the user asks for an HTML report, visual report, agency-style deliverable, interactive audit, or a revision to an existing SEO report. This system belongs to `aident-seo-growth-agency`; it must not load, cite, import, or depend on another design or presentation skill.
 
 ## Outcome
 

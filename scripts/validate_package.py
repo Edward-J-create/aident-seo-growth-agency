@@ -37,7 +37,7 @@ def validate(root: Path = ROOT) -> list[str]:
         errors.append("SKILL.md must begin with YAML frontmatter")
     else:
         fields = front.group(1)
-        if not re.search(r"^name: brand-seo-growth-workflow$", fields, re.M):
+        if not re.search(r"^name: aident-seo-growth-agency$", fields, re.M):
             errors.append("Skill name does not match the published installation name")
         if not re.search(r"^description: .+", fields, re.M):
             errors.append("Skill description is missing")

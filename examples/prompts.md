@@ -1,11 +1,11 @@
 # Invocation examples / 多行业调用示例
 
-All brands, domains and scenarios below are synthetic. Replace them with real user-supplied inputs; do not report their placeholders as retrieved facts. Installation and invocation syntax vary by Agent; `$brand-seo-growth-workflow` is the Codex-style example.
+All brands, domains and scenarios below are synthetic. Replace them with real user-supplied inputs; do not report their placeholders as retrieved facts. Installation and invocation syntax vary by Agent; `$aident-seo-growth-agency` is the Codex-style example.
 
 ## URL-only service business
 
 ```text
-使用 $brand-seo-growth-workflow 审计 https://example.com。
+使用 $aident-seo-growth-agency 审计 https://example.com。
 我们在英国提供企业财务流程咨询，目标是英语的合格咨询预约。
 竞品为 https://consulting.example。另请独立发现适合对比的竞品。
 只有公开网址，没有 CMS、GSC 或 CRM 连接。
@@ -17,7 +17,7 @@ All brands, domains and scenarios below are synthetic. Replace them with real us
 ## Ecommerce, preview first
 
 ```text
-Use $brand-seo-growth-workflow for https://example.com, a US/English outdoor
+Use $aident-seo-growth-agency for https://example.com, a US/English outdoor
 equipment store. Competitor: https://outdoor.example. Create a sourced category,
 product, use-case and buying-guide strategy. Inspect variants, filters, stock-outs
 and retired products. Draft three priority pages and a proposed CMS change batch.
@@ -28,7 +28,7 @@ Do not execute any CMS writes until I approve the specific batch.
 ## SaaS / B2B
 
 ```text
-Use $brand-seo-growth-workflow to analyze https://example.com against
+Use $aident-seo-growth-agency to analyze https://example.com against
 https://software.example for US English demand. The product helps small operations
 teams plan projects. Prioritize use cases, integrations, comparisons, pricing-page
 support and qualified demo requests. Avoid doorway pages or a separate page for
@@ -39,7 +39,7 @@ Deliver analysis and drafts only.
 ## Regulated / YMYL, analysis only
 
 ```text
-使用 $brand-seo-growth-workflow 分析 https://example.com 的健康教育服务网站，
+使用 $aident-seo-growth-agency 分析 https://example.com 的健康教育服务网站，
 竞品 https://health.example，目标加拿大／英语。
 分别评估技术、内容、资质与声明证据、公开表单和索引边界。
 医疗／法律事实只采用适用地区的当前权威原始来源；没有来源时写待专业审核。
@@ -50,7 +50,7 @@ Deliver analysis and drafts only.
 ## Revisit after implementation
 
 ```text
-Use $brand-seo-growth-workflow to validate the approved changes to
+Use $aident-seo-growth-agency to validate the approved changes to
 https://example.com after 30 days. Reuse only our original traceable baseline
 captures. Compare matching country, language, date windows and scope. Use the
 matching authorized GSC property if available; otherwise complete public checks

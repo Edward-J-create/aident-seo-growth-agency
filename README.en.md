@@ -1,4 +1,4 @@
-# Brand SEO Growth Workflow
+# Aident SEO Growth Agency
 
 The complete English documentation is now the repository homepage:
 

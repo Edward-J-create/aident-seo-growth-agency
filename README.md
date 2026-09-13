@@ -1,4 +1,4 @@
-# Brand SEO Growth Workflow
+# Aident SEO Growth Agency
 
 [简体中文](README.zh.md) · [Agent instructions](SKILL.md) · [Tool routing](references/search-and-crawl-fallbacks.md) · [Maintenance](CONTRIBUTING.md) · [Rights](NOTICE.md)
 
@@ -15,21 +15,21 @@ It works with Shopify, WordPress, Webflow, custom/headless sites and public URL-
 ## Install and invoke
 
 ```bash
-npx skills add https://github.com/Edward-J-create/brand-seo-growth-workflow --skill brand-seo-growth-workflow
+npx skills add https://github.com/Edward-J-create/aident-seo-growth-agency --skill aident-seo-growth-agency
 ```
 
 Alternatively, clone the complete repository into your Agent's Skill directory. For a first Codex installation:
 
 ```bash
-git clone https://github.com/Edward-J-create/brand-seo-growth-workflow.git
+git clone https://github.com/Edward-J-create/aident-seo-growth-agency.git
 mkdir -p ~/.codex/skills
-cp -R brand-seo-growth-workflow ~/.codex/skills/brand-seo-growth-workflow
+cp -R aident-seo-growth-agency ~/.codex/skills/aident-seo-growth-agency
 ```
 
-If the destination already exists, back up and compare it before updating. Claude Code uses `~/.claude/skills/brand-seo-growth-workflow`; other environments use their documented Skill directory. Do not install only `SKILL.md`: fonts, templates, scripts and references are part of the package. Installation does not authorize external accounts.
+If the destination already exists, back up and compare it before updating. Claude Code uses `~/.claude/skills/aident-seo-growth-agency`; other environments use their documented Skill directory. Do not install only `SKILL.md`: fonts, templates, scripts and references are part of the package. Installation does not authorize external accounts.
 
 ```text
-Use $brand-seo-growth-workflow to audit my website.
+Use $aident-seo-growth-agency to audit my website.
 Brand: https://example.com — project management software for small businesses.
 Market: United States / English.
 Competitor: https://competitor.example

@@ -1,7 +1,7 @@
 interface:
-  display_name: "Brand SEO Growth Workflow"
+  display_name: "Aident SEO Growth Agency"
   short_description: "Audit, plan, and safely implement brand SEO growth"
-  default_prompt: "Use $brand-seo-growth-workflow to audit my website URL against competitors, create a sourced SEO roadmap, and prepare preview-first CMS changes."
+  default_prompt: "Use $aident-seo-growth-agency to audit my website URL against competitors, create a sourced SEO roadmap, and prepare preview-first CMS changes."
 
 dependencies:
   tools:

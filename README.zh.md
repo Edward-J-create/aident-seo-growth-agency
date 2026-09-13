@@ -1,8 +1,8 @@
-# Brand SEO Growth Workflow
+# Aident SEO Growth Agency
 
 [English](README.md) · [Agent 指令](SKILL.md) · [工具能力与替补](references/search-and-crawl-fallbacks.md) · [维护与校验](CONTRIBUTING.md) · [授权说明](NOTICE.md)
 
-![Brand SEO Growth Workflow：从品牌与竞品网址到有证据的诊断、页面方案及效果验证](assets/previews/workflow.svg)
+![Aident SEO Growth Agency：从品牌与竞品网址到有证据的诊断、页面方案及效果验证](assets/previews/workflow.svg)
 
 **输入品牌官网／品牌信息和竞品网址，产出有来源、可执行、可验证的 SEO 增长方案。**
 
@@ -15,23 +15,23 @@
 ### 安装完整 Skill
 
 ```bash
-npx skills add https://github.com/Edward-J-create/brand-seo-growth-workflow --skill brand-seo-growth-workflow
+npx skills add https://github.com/Edward-J-create/aident-seo-growth-agency --skill aident-seo-growth-agency
 ```
 
 也可以克隆后放入 Agent 的技能目录。以下为 Codex 的首次安装示例；如果目标已存在，先备份、比较，不要覆盖未保存的本地改动：
 
 ```bash
-git clone https://github.com/Edward-J-create/brand-seo-growth-workflow.git
+git clone https://github.com/Edward-J-create/aident-seo-growth-agency.git
 mkdir -p ~/.codex/skills
-cp -R brand-seo-growth-workflow ~/.codex/skills/brand-seo-growth-workflow
+cp -R aident-seo-growth-agency ~/.codex/skills/aident-seo-growth-agency
 ```
 
-Claude Code 可将完整目录放到 `~/.claude/skills/brand-seo-growth-workflow`。其他 Agent 使用其约定的 Skill 目录和调用方式。**不要只复制 `SKILL.md`**：参考文档、CSV/YAML 模板、字体和脚本都属于能力包。安装 Skill 不会自动授权任何外部账号。
+Claude Code 可将完整目录放到 `~/.claude/skills/aident-seo-growth-agency`。其他 Agent 使用其约定的 Skill 目录和调用方式。**不要只复制 `SKILL.md`**：参考文档、CSV/YAML 模板、字体和脚本都属于能力包。安装 Skill 不会自动授权任何外部账号。
 
 ### 给 Agent 一段任务
 
 ```text
-使用 $brand-seo-growth-workflow 分析我的网站。
+使用 $aident-seo-growth-agency 分析我的网站。
 品牌官网：https://example.com
 品牌信息：我们为中小企业提供项目管理软件。
 目标市场：美国／英语。
@@ -145,7 +145,7 @@ CSV 示例均为合成演示数据。关键词分数是透明的启发式排序�
 ## 仓库结构
 
 ```text
-brand-seo-growth-workflow/
+aident-seo-growth-agency/
   SKILL.md                        Agent 工作流入口
   README.md / README.zh.md        英文首页与完整中文文档
   NOTICE.md / SECURITY.md         权利、数据与披露边界
