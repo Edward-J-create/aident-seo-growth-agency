@@ -1,0 +1,2 @@
+keyword,country,language,intent,parent_topic,volume,kd,cpc,business_value,strategic_fit,current_gap,current_url,competitor_url,source,retrieved_at
+example keyword,US,en,commercial investigation,example topic,1000,25,2.5,3,3,80,https://example.com/current,https://competitor.example/page,synthetic fixture - not measured,2026-01-01

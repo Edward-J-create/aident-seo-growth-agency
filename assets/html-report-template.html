@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Evidence-backed brand SEO audit and growth plan.">
+  <title>Brand SEO Growth Audit</title>
+  <style>
+    @font-face{font-family:Outfit;src:url("skill-asset://fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");font-style:normal;font-weight:100 900;font-display:swap}
+    @font-face{font-family:SmileySans;src:url("skill-asset://fonts/smiley-sans/SmileySans-Oblique.ttf.woff2") format("woff2");font-style:oblique;font-weight:400 900;font-display:swap}
+    @font-face{font-family:NotoSansSC;src:url("skill-asset://fonts/noto-sans-sc/NotoSansSC-Variable.ttf") format("truetype");font-style:normal;font-weight:100 900;font-display:swap}
+    :root{
+      --seo-deep:#0f091d;--seo-ink:#111114;--seo-paper:#f2f4f0;--seo-white:#fff;
+      --seo-cyan:#1eeaea;--seo-violet:#7558f8;--seo-pink:#f94ea6;--seo-lime:#a1f027;--seo-blue:#29aef6;--seo-teal:#008089;
+      --seo-gradient-brand:linear-gradient(90deg,#9afff8 0%,#daf4ff 49.04%,#cab7ff 100%);
+      --seo-gradient-accent:linear-gradient(90deg,#f3b6ff 0%,#6de4f9 50.96%,#77fab4 100%);
+      --seo-gradient-callout:linear-gradient(90deg,rgba(160,169,254,.16),rgba(46,238,238,.16) 48%,rgba(147,252,184,.16));
+      --radius-xl:30px;--radius:24px;--radius-sm:16px;--max:1480px;
+      --font-display:Outfit,Arial,sans-serif;--font-cn-display:SmileySans,NotoSansSC,sans-serif;--font-body:NotoSansSC,Arial,sans-serif;
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 15% 0,rgba(117,88,248,.12),transparent 30rem),var(--seo-deep);color:#fff;font-family:var(--font-body);font-size:15px;line-height:1.72;letter-spacing:-.008em}button{font:inherit;color:inherit}a{color:var(--seo-cyan);text-underline-offset:5px}a:hover{color:#fff}code{border:1px solid rgba(30,234,234,.14);border-radius:6px;background:rgba(30,234,234,.07);color:var(--seo-cyan);padding:.08em .34em}.shell{width:min(calc(100% - 48px),var(--max));margin:auto;padding:18px 0 70px}
+    .topbar{min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:22px;padding:0 4px}.brand{display:flex;align-items:center;gap:13px}.brand-mark{display:grid;place-items:center;width:44px;height:38px;border-radius:10px;background:var(--seo-gradient-accent);color:var(--seo-deep);font:760 13px/1 var(--font-display);transform:rotate(-4deg)}.brand-copy{display:grid;line-height:1.25}.brand-copy strong{font:660 13px/1.2 var(--font-display);letter-spacing:.12em}.eyebrow,.date{color:#858693;font:600 10px/1.2 var(--font-display);letter-spacing:.17em;text-transform:uppercase}
+    .cover{position:relative;isolation:isolate;display:grid;grid-template-columns:minmax(0,1.48fr) minmax(310px,.72fr);min-height:510px;overflow:hidden;border:1px solid rgba(255,255,255,.14);border-radius:var(--radius-xl);background:radial-gradient(circle at 82% 27%,rgba(30,234,234,.13),transparent 20rem),radial-gradient(circle at 92% 78%,rgba(249,78,166,.12),transparent 18rem),linear-gradient(115deg,#0f091d 0%,#0f091d 57%,#17102b 100%)}.cover:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:72px 72px;mask-image:linear-gradient(90deg,rgba(0,0,0,.38),transparent 75%);opacity:.22}.cover-copy{align-self:center;padding:clamp(48px,6vw,88px)}.kicker,.section-label{display:inline-block;background:var(--seo-gradient-accent);background-clip:text;-webkit-background-clip:text;color:transparent;font:700 10px/1.3 var(--font-display);letter-spacing:.18em;text-transform:uppercase}.cover h1{max-width:930px;margin:28px 0 30px;font:390 clamp(54px,7.3vw,104px)/.89 var(--font-display);letter-spacing:-.067em}.cover h1 em{display:block;background:var(--seo-gradient-brand);background-clip:text;-webkit-background-clip:text;color:transparent;font-style:normal}.lede{max-width:760px;margin:0;color:rgba(255,255,255,.74);font-size:clamp(15px,1.45vw,19px);line-height:1.75}
+    .cover-side{position:relative;display:grid;align-content:end;gap:18px;padding:70px 32px 38px;border-left:1px solid rgba(255,255,255,.12);background:linear-gradient(180deg,transparent,rgba(15,9,29,.86) 72%)}.signal-field{position:absolute;inset:34px 24px auto auto;width:230px;height:210px;opacity:.9}.signal-field i{position:absolute;display:block;width:54px;height:54px;border:1px solid rgba(255,255,255,.16);border-radius:14px;background:rgba(255,255,255,.025);transform:rotate(-7deg)}.signal-field i:nth-child(1){right:122px;top:17px;background:linear-gradient(145deg,rgba(243,182,255,.7),rgba(117,88,248,.22))}.signal-field i:nth-child(2){right:61px;top:0;width:72px;height:72px;background:linear-gradient(145deg,rgba(109,228,249,.72),rgba(30,234,234,.12));transform:rotate(8deg)}.signal-field i:nth-child(3){right:0;top:62px;background:linear-gradient(145deg,rgba(119,250,180,.72),rgba(161,240,39,.12));transform:rotate(14deg)}.signal-field i:nth-child(4){right:92px;top:85px;width:82px;height:82px;background:linear-gradient(145deg,rgba(249,78,166,.5),rgba(117,88,248,.12));transform:rotate(2deg)}.signal-field i:nth-child(5){right:27px;top:135px;width:65px;height:65px;background:rgba(255,255,255,.02);transform:rotate(-10deg)}.cover-stat{border-top:1px solid rgba(255,255,255,.18);padding-top:12px}.cover-stat span{display:block;color:#92939e;font:600 9px/1.3 var(--font-display);letter-spacing:.15em;text-transform:uppercase}.cover-stat strong{display:block;margin-top:4px;font:470 20px/1.25 var(--font-display);letter-spacing:-.025em}
+    .metrics{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin:10px 0 14px}.metric{position:relative;min-height:128px;padding:18px;border:1px solid rgba(255,255,255,.11);border-radius:var(--radius-sm);background:rgba(255,255,255,.024)}.metric:before{content:"";position:absolute;top:0;left:18px;right:18px;height:1px;background:var(--seo-gradient-accent);opacity:.42}.metric span{display:block;color:#92939e;font:600 9px/1.25 var(--font-display);letter-spacing:.1em;text-transform:uppercase}.metric strong{display:block;margin:12px 0 4px;font:510 34px/1.1 var(--font-display);letter-spacing:-.05em}.metric small{color:#747681;font-size:11px}.metric.accent strong{background:var(--seo-gradient-brand);background-clip:text;-webkit-background-clip:text;color:transparent}.metric.risk strong{color:var(--seo-pink)}
+    .tabs{position:sticky;top:10px;z-index:20;display:flex;gap:3px;margin:16px 0;padding:6px;overflow-x:auto;scrollbar-width:none;border:1px solid rgba(255,255,255,.12);border-radius:16px;background:rgba(15,9,29,.84);backdrop-filter:blur(18px);box-shadow:0 10px 34px rgba(0,0,0,.18)}.tabs::-webkit-scrollbar{display:none}.tab{flex:1 0 auto;min-height:46px;padding:10px 15px;border:1px solid transparent;border-radius:11px;background:transparent;color:#90919d;cursor:pointer;font-size:12px;font-weight:560}.tab:hover{background:rgba(255,255,255,.045);color:#fff}.tab[aria-selected=true]{border-color:rgba(109,228,249,.22);background:var(--seo-gradient-callout);color:#fff}.tab[aria-selected=true]:before{content:"●";margin-right:7px;color:var(--seo-cyan);font-size:7px;vertical-align:2px}.tab:focus-visible{outline:2px solid var(--seo-cyan);outline-offset:2px}
+    .panel{--text:#fff;--muted:#b6b7c0;--dim:#7d7f8a;--line:rgba(255,255,255,.12);--line-strong:rgba(255,255,255,.22);--surface:rgba(255,255,255,.026);--surface-2:rgba(255,255,255,.045);min-height:660px;overflow:hidden;border:1px solid rgba(255,255,255,.13);border-radius:28px;background:radial-gradient(circle at 94% 8%,rgba(117,88,248,.12),transparent 24rem),linear-gradient(115deg,#0f091d,#120c22);color:var(--text);animation:reveal .3s ease both}.panel.paper{--text:#111114;--muted:#5f6264;--dim:#898d8e;--line:rgba(17,17,20,.13);--line-strong:rgba(17,17,20,.23);--surface:rgba(17,17,20,.022);--surface-2:rgba(17,17,20,.045);border-color:rgba(17,17,20,.13);background:radial-gradient(circle at 93% 7%,rgba(117,88,248,.08),transparent 25rem),linear-gradient(115deg,#f2f4f0,#eef1ed);color:var(--text)}.panel[hidden]{display:none}@keyframes reveal{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}.panel-head{display:flex;align-items:end;justify-content:space-between;gap:54px;padding:clamp(34px,4.5vw,62px);border-bottom:1px solid var(--line)}.panel-index{background:var(--seo-gradient-accent);background-clip:text;-webkit-background-clip:text;color:transparent;font:400 italic 24px/1 Georgia,serif}.panel.paper .panel-index,.panel.paper .section-label{background-image:linear-gradient(90deg,var(--seo-violet),var(--seo-teal))}.panel-title{margin:8px 0 0;color:var(--text);font:520 clamp(40px,5vw,68px)/1 var(--font-cn-display);letter-spacing:-.06em}.panel-summary{max-width:570px;margin:0;color:var(--muted);font-size:14px}.panel-body{padding:clamp(30px,4.5vw,62px)}
+    .grid-2,.grid-3,.grid-4{display:grid;gap:16px}.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}.surface{padding:24px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}.surface.callout{border-color:rgba(109,228,249,.22);background-color:var(--surface);background-image:var(--seo-gradient-callout)}.surface.risk{border-color:rgba(249,78,166,.25);background:linear-gradient(145deg,rgba(249,78,166,.1),transparent 72%),var(--surface)}.surface h3{margin:6px 0 8px;color:var(--text);font:540 18px/1.3 var(--font-display)}.surface p,.surface li{color:var(--muted)}.surface ul{margin:10px 0 0;padding-left:20px}.surface li+li{margin-top:7px}.divider{margin:42px 0;border:0;border-top:1px solid var(--line)}.section-title{margin:0 0 16px;color:var(--text);font:510 25px/1.25 var(--font-display);letter-spacing:-.03em}
+    .table-wrap{overflow:auto;border:1px solid var(--line);border-radius:20px;background:var(--surface)}table{width:100%;min-width:800px;border-collapse:collapse}th,td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}th{background:var(--surface-2);color:var(--muted);font:700 9px/1.35 var(--font-display);letter-spacing:.13em;text-transform:uppercase}td{color:var(--text);font-size:13px}tbody tr:last-child td{border-bottom:0}tbody tr:hover td{background:rgba(30,234,234,.04)}.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}.pill{display:inline-flex;padding:7px 9px;border:1px solid var(--line-strong);border-radius:999px;color:var(--muted);font:700 10px/1 var(--font-display);white-space:nowrap}.pill.p0{border-color:rgba(249,78,166,.25);background:rgba(249,78,166,.1);color:var(--seo-pink)}.pill.p1{border-color:rgba(161,240,39,.25);background:rgba(161,240,39,.1);color:var(--seo-lime)}.panel.paper .pill.p1{color:#527f0c}.pill.p2{border-color:rgba(41,174,246,.25);background:rgba(41,174,246,.1);color:var(--seo-blue)}
+    .finding{display:grid;grid-template-columns:52px minmax(0,1fr) 100px;gap:14px;align-items:start;padding:17px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}.finding+.finding{margin-top:9px}.finding h3{margin:0 0 3px;color:var(--text);font:540 16px/1.4 var(--font-display)}.finding p{margin:0;color:var(--muted);font-size:13px}.impact{text-align:right;color:var(--seo-lime);font:700 9px/1.3 var(--font-display);letter-spacing:.08em;text-transform:uppercase}.source-note{margin-top:34px;padding-top:16px;border-top:1px solid var(--line);color:var(--dim);font-size:11px}.footer{display:flex;justify-content:space-between;gap:20px;padding:28px 4px 0;color:#747681;font:500 11px/1.5 var(--font-display)}
+    @media(max-width:1100px){.metrics{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-4{grid-template-columns:repeat(2,minmax(0,1fr))}.cover h1{font-size:clamp(52px,8vw,84px)}}
+    @media(max-width:820px){.shell{width:min(calc(100% - 24px),var(--max));padding-top:10px}.cover{grid-template-columns:1fr}.cover-copy{padding:82px 30px 44px}.cover-side{min-height:300px;border-top:1px solid rgba(255,255,255,.12);border-left:0}.panel-head{align-items:start;flex-direction:column;gap:18px}.grid-2,.grid-3{grid-template-columns:1fr}}
+    @media(max-width:560px){body{font-size:14px}.date{text-align:right}.cover{border-radius:24px}.cover h1{font-size:47px}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.metric{min-height:114px}.panel{border-radius:24px}.panel-head,.panel-body{padding:24px}.panel-title{font-size:43px}.finding{grid-template-columns:46px minmax(0,1fr)}.impact{grid-column:2;text-align:left}.footer{flex-direction:column}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+    @media print{:root{--seo-deep:#fff}body{background:#fff;color:#111}.shell{width:100%;padding:0}.cover{background:#111114}.tabs{display:none}.panel,.panel[hidden],.panel.paper{--text:#111114;--muted:#5f6264;--dim:#898d8e;--line:rgba(17,17,20,.13);--line-strong:rgba(17,17,20,.23);--surface:rgba(17,17,20,.022);--surface-2:rgba(17,17,20,.045);display:block;min-height:auto;margin-top:20px;break-before:page;background:#f2f4f0;color:#111114;animation:none}.footer{color:#444}a{color:#111}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">SEO</span><span class="brand-copy"><strong>BRAND NAME</strong><span class="eyebrow">Organic Growth Intelligence</span></span></div>
+      <div class="date">Template · Not a completed audit</div>
+    </header>
+
+    <section class="cover" aria-labelledby="report-title">
+      <div class="cover-copy">
+        <span class="kicker">Executive SEO Audit · Market / Language</span>
+        <h1 id="report-title">Brand SEO report<em>Search, content &amp; growth</em></h1>
+        <p class="lede">Replace this sentence with the evidence-backed primary diagnosis, the business consequence, and the highest-leverage corrective direction.</p>
+      </div>
+      <aside class="cover-side">
+        <div class="signal-field" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="cover-stat"><span>Primary diagnosis</span><strong>State the verified constraint</strong></div>
+        <div class="cover-stat"><span>Highest-leverage move</span><strong>State the P0 decision</strong></div>
+        <div class="cover-stat"><span>Measurement</span><strong>State the business KPI</strong></div>
+      </aside>
+    </section>
+
+    <section class="metrics" aria-label="Core audit metrics">
+      <article class="metric accent"><span>Indexed opportunity</span><strong>—</strong><small>Not measured · add scope and evidence</small></article>
+      <article class="metric"><span>Organic visibility</span><strong>—</strong><small>Not measured · add source and window</small></article>
+      <article class="metric risk"><span>Critical issues</span><strong>—</strong><small>Not assessed · not zero issues</small></article>
+      <article class="metric"><span>Keyword set</span><strong>—</strong><small>Not collected · do not pad</small></article>
+      <article class="metric"><span>Referring domains</span><strong>—</strong><small>Not measured · label provider estimates</small></article>
+      <article class="metric"><span>Priority pages</span><strong>—</strong><small>Not mapped · add P0/P1/P2 backlog</small></article>
+    </section>
+
+    <nav class="tabs" role="tablist" aria-label="Report chapters">
+      <button class="tab" id="tab-summary" role="tab" aria-controls="panel-summary" aria-selected="true" type="button">01 执行摘要</button>
+      <button class="tab" id="tab-detail" role="tab" aria-controls="panel-detail" aria-selected="false" type="button">02 审计明细</button>
+    </nav>
+
+    <section class="panel" id="panel-summary" role="tabpanel" aria-labelledby="tab-summary">
+      <header class="panel-head"><div><span class="panel-index">01</span><h2 class="panel-title">执行摘要</h2></div><p class="panel-summary">Summarize the verified opportunity, risk, and decision. Keep detail available below rather than replacing it with decorative cards.</p></header>
+      <div class="panel-body">
+        <div class="grid-3">
+          <article class="surface callout"><span class="section-label">Opportunity</span><h3>Commercial page ownership</h3><p>Explain what currently ranks, which page should own the cluster, and why this move matters.</p></article>
+          <article class="surface risk"><span class="section-label">Risk</span><h3>Technical or trust constraint</h3><p>State the observed evidence, scope, business impact, and confidence.</p></article>
+          <article class="surface"><span class="section-label">Decision</span><h3>Next approved action</h3><p>Clarify whether the state is recommendation, draft, preview, approved write, or verified release.</p></article>
+        </div>
+        <hr class="divider">
+        <span class="section-label">Priority diagnosis</span><h3 class="section-title">Decisions that unlock the next phase</h3>
+        <article class="finding"><span class="pill p0">P0</span><div><h3>Evidence-backed issue</h3><p>Observed evidence → impact → recommended fix → acceptance test.</p></div><span class="impact">High impact</span></article>
+        <article class="finding"><span class="pill p1">P1</span><div><h3>Growth opportunity</h3><p>Current state → unique page owner → supporting content and links → measurement.</p></div><span class="impact">Next phase</span></article>
+        <p class="source-note">Source note: identify tools, target scope, market/database, retrieval date, estimate status, and unavailable evidence.</p>
+      </div>
+    </section>
+
+    <section class="panel paper" id="panel-detail" role="tabpanel" aria-labelledby="tab-detail" hidden>
+      <header class="panel-head"><div><span class="panel-index">02</span><h2 class="panel-title">审计明细</h2></div><p class="panel-summary">Use light paper chapters for dense tables, URL-level evidence, keyword mapping, page briefs, source registers, and operational records.</p></header>
+      <div class="panel-body">
+        <span class="section-label">Evidence register</span><h3 class="section-title">Issue, impact, action, and validation</h3>
+        <div class="table-wrap"><table><thead><tr><th>Priority</th><th>Finding</th><th>Evidence</th><th>Recommendation</th><th>Acceptance test</th></tr></thead><tbody><tr><td><span class="pill p0">P0</span></td><td>Describe the issue</td><td>URL, metric, source, and date</td><td>State the exact corrective action</td><td>Define an observable pass condition</td></tr><tr><td><span class="pill p1">P1</span></td><td>Describe the opportunity</td><td>Keyword, SERP, or architecture evidence</td><td>Assign a unique page owner</td><td>Validate indexation, query ownership, and conversion</td></tr></tbody></table></div>
+        <p class="source-note">Limitation note: record missing connections, failed crawls, sampled coverage, third-party estimates, approvals, and the no-ranking-guarantee boundary.</p>
+      </div>
+    </section>
+
+    <footer class="footer"><span>Brand SEO Growth Audit</span><span>Evidence-backed · Preview-first · No unapproved publication</span></footer>
+  </main>
+  <script>
+    (()=>{
+      const tabs=[...document.querySelectorAll('[role="tab"]')];
+      const panels=[...document.querySelectorAll('[role="tabpanel"]')];
+      const list=document.querySelector('[role="tablist"]');
+      function activate(tab,focus=false,updateHash=true){
+        const id=tab.getAttribute('aria-controls');
+        tabs.forEach(item=>{item.setAttribute('aria-selected',String(item===tab));item.tabIndex=item===tab?0:-1});
+        panels.forEach(panel=>{panel.hidden=panel.id!==id});
+        if(focus)tab.focus();
+        if(updateHash)history.replaceState(null,'','#'+id);
+      }
+      tabs.forEach(tab=>tab.addEventListener('click',()=>activate(tab)));
+      list.addEventListener('keydown',event=>{
+        if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(event.key))return;
+        event.preventDefault();
+        const current=Math.max(0,tabs.indexOf(document.activeElement));
+        let next=current;
+        if(['ArrowRight','ArrowDown'].includes(event.key))next=(current+1)%tabs.length;
+        if(['ArrowLeft','ArrowUp'].includes(event.key))next=(current-1+tabs.length)%tabs.length;
+        if(event.key==='Home')next=0;
+        if(event.key==='End')next=tabs.length-1;
+        activate(tabs[next],true);
+      });
+      function fromHash(){activate(tabs.find(tab=>'#'+tab.getAttribute('aria-controls')===location.hash)||tabs[0],false,false)}
+      window.addEventListener('hashchange',fromHash);fromHash();
+      let closed=[];
+      window.addEventListener('beforeprint',()=>{closed=[...document.querySelectorAll('details')].filter(d=>!d.open);closed.forEach(d=>d.open=true)});
+      window.addEventListener('afterprint',()=>closed.forEach(d=>d.open=false));
+    })();
+  </script>
+<noscript><style>.panel[hidden]{display:block}.tabs{display:none}</style><p>JavaScript is off. All report chapters are shown.</p></noscript>
+</body>
+</html>

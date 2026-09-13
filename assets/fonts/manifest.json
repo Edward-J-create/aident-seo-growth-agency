@@ -1,0 +1,22 @@
+{
+  "fonts": [
+    {
+      "family": "Outfit",
+      "file": "outfit/Outfit-VariableFont_wght.ttf",
+      "license": "licenses/Outfit-OFL.txt",
+      "sha256": "bccf9dda25ddc7fb32217f386e07c72c699a902eed3abcf5665ce4377fdfa33b"
+    },
+    {
+      "family": "Smiley Sans",
+      "file": "smiley-sans/SmileySans-Oblique.ttf.woff2",
+      "license": "licenses/SmileySans-OFL.txt",
+      "sha256": "731f22973349404b15a88a99ef3b5dd4104c0965c23b7e485c1f11e84fea99e2"
+    },
+    {
+      "family": "Noto Sans SC",
+      "file": "noto-sans-sc/NotoSansSC-Variable.ttf",
+      "license": "licenses/NotoSansSC-OFL.txt",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    }
+  ]
+}

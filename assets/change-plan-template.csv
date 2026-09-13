@@ -1,0 +1,2 @@
+batch_id,action_id,provider,site_or_account,environment,object_type,object_id_or_url,operation,field,before,after,publication_state,dependency,risk,rollback,validation,approval_status,execution_status,preview_or_result_url,audit_reference
+BATCH-001,A-001,CMS,example.com,staging,page,/example/,update,seo.title,Old title,Proposed title,draft,approved copy,low,restore old title,re-read field and inspect preview,awaiting approval,planned,,

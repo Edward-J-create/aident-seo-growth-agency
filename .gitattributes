@@ -1,0 +1,4 @@
+*.ttf binary
+*.woff2 binary
+# Keep upstream license files byte-for-byte, including original line endings.
+assets/fonts/licenses/* -text -whitespace

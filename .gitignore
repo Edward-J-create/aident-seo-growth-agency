@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+output/
+reports/
+raw/
+captures/
+logs/
+tmp/
+*.log
+.coverage

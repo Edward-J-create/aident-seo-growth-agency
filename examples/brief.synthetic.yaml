@@ -1,0 +1,30 @@
+# Synthetic example only. No site has been fetched and no metrics are asserted.
+project:
+  brand_name: "Example Operations"
+  primary_domain: "https://example.com"
+  website_platform: "unknown"
+  environment: "production-public-read-only"
+  mode: "diagnose"
+business:
+  industry: "B2B software"
+  business_model: "subscription"
+  primary_conversion: "qualified demo request"
+  priority_offers: ["team project planning"]
+  differentiators: []
+market:
+  countries: ["US"]
+  languages: ["en"]
+competitors:
+  user_provided: ["https://competitor.example"]
+  organic_discovered: []
+constraints:
+  no_publish_without_confirmation: true
+systems:
+  cms: "not-connected"
+  gsc: "not-connected"
+  analytics: "not-connected"
+  crm: "not-connected"
+success:
+  baseline_window: "not-measured"
+  validation_days: [7, 30]
+assumptions: ["Illustrative brief, not a completed audit"]

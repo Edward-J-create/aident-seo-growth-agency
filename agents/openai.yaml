@@ -1,0 +1,15 @@
+interface:
+  display_name: "Brand SEO Growth Workflow"
+  short_description: "Audit, plan, and safely implement brand SEO growth"
+  default_prompt: "Use $brand-seo-growth-workflow to audit my website URL against competitors, create a sourced SEO roadmap, and prepare preview-first CMS changes."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "aident-loadout"
+      description: "Discover and execute Firecrawl, Ahrefs, GSC, Brand Radar, Shopify, and other connected capabilities through Aident Loadout."
+      transport: "streamable_http"
+      url: "https://loadout.aident.ai/mcp"
+
+policy:
+  allow_implicit_invocation: true

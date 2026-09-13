@@ -1,0 +1,31 @@
+name: Validate Skill package
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Runtime versions
+        run: |
+          python3 --version
+          node --version
+      - name: Validate package
+        run: python3 scripts/validate_package.py
+      - name: Test Python helpers
+        run: python3 -m unittest discover -s tests -v
+      - name: Test template interaction model
+        run: node tests/test_tabs.mjs
+      - name: Build and check portable template
+        run: |
+          python3 scripts/build_standalone_report.py assets/html-report-template.html --output output/report-template.html
+          python3 scripts/validate_html_report.py output/report-template.html
+      - name: Check patch whitespace
+        run: git show --format= --check HEAD

@@ -1,0 +1,59 @@
+project:
+  brand_name: ""
+  primary_domain: ""
+  website_platform: "unknown"
+  environment: "production-public-read-only"
+  mode: "diagnose"
+business:
+  industry: ""
+  business_model: ""
+  primary_conversion: ""
+  secondary_conversions: []
+  priority_offers: []
+  differentiators: []
+  sales_cycle: "unknown"
+  audience_funnels: []
+  qualified_conversion_definition: "not-yet-confirmed"
+  baseline_90d:
+    organic_sessions: null
+    valid_leads_or_orders: null
+    qualified_leads_or_completed_orders: null
+    source_and_window: "not-measured"
+    invalid_reason_breakdown: []
+    role_language_country_breakdown: []
+audience:
+  segments: []
+  problems: []
+  use_cases: []
+market:
+  countries: []
+  languages: []
+  currency: ""
+  locations_or_service_area: []
+competitors:
+  user_provided: []
+  organic_discovered: []
+  roles_and_market_lanes: []
+constraints:
+  compliance_or_ymyl: []
+  brand_claims_requiring_review: []
+  no_publish_without_confirmation: true
+systems:
+  cms: "unknown-or-not-connected"
+  gsc: "unknown-or-not-connected"
+  analytics: "unknown-or-not-connected"
+  ahrefs: "unknown-or-not-connected"
+  brand_radar: "unknown-or-not-connected"
+  crm: "unknown-or-not-connected"
+  performance_field_and_lab: "unknown-or-not-connected"
+success:
+  primary_kpis: []
+  baseline_window: ""
+  validation_days: [7, 30]
+assumptions: []
+own_previous_measurements_with_provenance: []
+reference_material_for_coverage_only: []
+metric_scope_conflicts: []
+public_subdomains_apps_documents: []
+claims_evidence_register: []
+open_questions: []

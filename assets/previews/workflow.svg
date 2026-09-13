@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="640" viewBox="0 0 1440 640" role="img" aria-labelledby="title desc">
+  <title id="title">Brand SEO Growth Workflow</title>
+  <desc id="desc">An illustrative workflow, not a client report: brand and competitor inputs feed independent evidence, then search diagnosis, page planning, approval-gated changes and outcome validation.</desc>
+  <defs>
+    <linearGradient id="accent"><stop stop-color="#9afff8"/><stop offset="1" stop-color="#cab7ff"/></linearGradient>
+    <radialGradient id="wash"><stop stop-color="#7558f8" stop-opacity=".25"/><stop offset="1" stop-color="#0f091d" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#fff" stroke-opacity=".04"/></pattern>
+  </defs>
+  <rect width="1440" height="640" rx="28" fill="#0f091d"/>
+  <rect width="1440" height="640" rx="28" fill="url(#grid)"/>
+  <ellipse cx="1100" cy="180" rx="460" ry="360" fill="url(#wash)"/>
+  <g font-family="Arial, sans-serif">
+    <text x="64" y="68" font-size="13" letter-spacing="3" fill="#9afff8">EVIDENCE FIRST / PREVIEW FIRST</text>
+    <text x="60" y="150" font-size="64" letter-spacing="-3" fill="#f2f4f0">Brand SEO</text>
+    <text x="60" y="217" font-size="64" letter-spacing="-3" fill="url(#accent)">Growth Workflow</text>
+    <text x="64" y="270" font-size="19" fill="#b8b3c7">A reusable research-to-action system.</text>
+    <text x="64" y="303" font-size="19" fill="#b8b3c7">Any industry. Any website. Traceable decisions.</text>
+    <rect x="64" y="365" width="498" height="184" rx="18" fill="#fff" fill-opacity=".035" stroke="#fff" stroke-opacity=".14"/>
+    <text x="90" y="403" font-size="12" letter-spacing="2" fill="#9c96ac">MINIMAL INPUT</text>
+    <text x="90" y="445" font-size="27" fill="#f2f4f0">Brand URL + competitor URLs</text>
+    <text x="90" y="479" font-size="15" fill="#b8b3c7">Private analytics and CMS access are optional.</text>
+    <text x="90" y="512" font-size="14" fill="#9afff8">No borrowed metrics. No ranking guarantees.</text>
+    <path d="M598 370H650M650 192V514M650 192H686M650 298H686M650 406H686M650 514H686" fill="none" stroke="#9afff8" stroke-opacity=".55"/>
+    <text x="688" y="105" font-size="12" letter-spacing="2" fill="#b8b3c7">INDEPENDENT EVIDENCE → DECISIONS</text>
+    <g fill="#f2f4f0">
+      <rect x="686" y="144" width="688" height="94" rx="16"/>
+      <rect x="686" y="251" width="688" height="94" rx="16"/>
+      <rect x="686" y="358" width="688" height="94" rx="16"/>
+      <rect x="686" y="465" width="688" height="94" rx="16"/>
+    </g>
+    <g fill="#7558f8" font-size="13"><text x="709" y="174">01</text><text x="709" y="281">02</text><text x="709" y="388">03</text><text x="709" y="495">04</text></g>
+    <g fill="#111114" font-size="25"><text x="750" y="183">Search diagnosis</text><text x="750" y="290">Page and conversion strategy</text><text x="750" y="397">Approval-gated execution</text><text x="750" y="504">Report and validation</text></g>
+    <g fill="#5f6264" font-size="15"><text x="750" y="212">Crawl · keywords · competitors · links · technical SEO</text><text x="750" y="319">One cluster owner · architecture · content · trust</text><text x="750" y="426">Exact diff · draft / preview · verification · rollback</text><text x="750" y="533">Standalone HTML · evidence ledger · day 7 / 30 checks</text></g>
+    <text x="64" y="603" font-size="12" letter-spacing="1" fill="#9c96ac">ILLUSTRATIVE WORKFLOW — NOT CLIENT DATA OR A REPORT SCREENSHOT</text>
+  </g>
+</svg>
