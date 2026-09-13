@@ -18,7 +18,7 @@ TEXT_SUFFIXES = {".md", ".py", ".mjs", ".json", ".yaml", ".yml", ".html", ".svg"
 def validate(root: Path = ROOT) -> list[str]:
     errors: list[str] = []
     required = [
-        "SKILL.md", "README.md", "README.en.md", "NOTICE.md", "SECURITY.md",
+        "SKILL.md", "README.md", "README.zh.md", "README.en.md", "NOTICE.md", "SECURITY.md",
         "CONTRIBUTING.md", "agents/openai.yaml", "assets/html-report-template.html",
         "assets/fonts/manifest.json", "assets/project-brief-template.yaml",
         "assets/source-register-template.csv", "assets/capability-log-template.csv",
